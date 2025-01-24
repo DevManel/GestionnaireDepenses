@@ -1,4 +1,3 @@
-// /components/ExpenseList.js
 import React from 'react';
 import { useExpenseContext } from '../context/ExpenseContext';
 import ExpenseItem from './ExpenseItem';

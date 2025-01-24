@@ -1,3 +1,4 @@
+// /components/ExpenseItem.js
 import React from 'react';
 import { useExpenseContext } from '../context/ExpenseContext';
 
