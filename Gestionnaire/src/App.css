@@ -41,10 +41,10 @@
   color: #888;
 }
 
-/* Global styles */
+/* === Global styles === */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #6a11cb, #2575fc); /* Dégradé de couleurs modernes */
+  background: linear-gradient(to right, #00b4d8, #0077b6); /* Dégradé bleu-vert */
   margin: 0;
   padding: 0;
   color: #333;
@@ -52,23 +52,23 @@ body {
 
 h1, h2, h3 {
   text-align: center;
-  color: #ffffff;
+  color: #ffffff; /* Titres en blanc */
   margin: 20px 0;
   font-weight: 600;
 }
 
-/* App Container */
+/* === App Container === */
 .container {
   width: 90%;
   max-width: 1100px;
   margin: 20px auto;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.95); /* Fond blanc avec opacité */
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Form Styling */
+/* === Form Styling === */
 form {
   display: grid;
   gap: 15px;
@@ -84,6 +84,7 @@ form h2 {
   margin-bottom: 10px;
 }
 
+/* === Input, Select, and Button Styles === */
 input, select {
   width: 100%;
   max-width: 400px;
@@ -95,14 +96,15 @@ input, select {
 }
 
 input:focus, select:focus {
-  border-color: #6a11cb;
+  border-color: #00b4d8; /* Bordure bleue */
   outline: none;
-  box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+  box-shadow: 0 0 8px rgba(0, 180, 216, 0.3); /* Ombre bleue au focus */
 }
 
+/* === Button Styles === */
 button {
   padding: 14px 24px;
-  background: #6a11cb;
+  background: #00b4d8; /* Fond bleu clair */
   color: white;
   border: none;
   border-radius: 8px;
@@ -113,11 +115,11 @@ button {
 }
 
 button:hover {
-  background: #2575fc;
+  background: #0077b6; /* Bleu plus foncé au survol */
   transform: translateY(-2px);
 }
 
-/* Expense List */
+/* === Expense List === */
 .expense-list {
   margin-top: 25px;
 }
@@ -150,8 +152,9 @@ li span {
   color: #555;
 }
 
+/* Button inside the list (Delete Button) */
 li button {
-  background: #ff6b6b;
+  background: #ff6f3d; /* Orange vif */
   padding: 8px 16px;
   font-size: 14px;
   border-radius: 5px;
@@ -162,10 +165,10 @@ li button {
 }
 
 li button:hover {
-  background: #ff5252;
+  background: #ff4d1f; /* Couleur plus foncée pour le survol */
 }
 
-/* Total Expense Section */
+/* === Total Expense Section === */
 .total-expense {
   margin-top: 30px;
   text-align: center;
@@ -179,12 +182,12 @@ li button:hover {
 }
 
 .total-expense h3 {
-  color: #6a11cb;
+  color: #00b4d8; /* Titre en bleu clair */
   font-size: 24px;
   margin: 10px 0 0;
 }
 
-/* Responsive Styles */
+/* === Responsive Styles === */
 @media (max-width: 768px) {
   .container {
     width: 95%;
